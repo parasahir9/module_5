@@ -1,0 +1,47 @@
+( 1 ) What do you understand By Database 
+ {
+	What i understand by DataBase is very simple DataBase is a container Where We store our sites DATA;
+	However we like we can insert diffrent method of storing data in the same data base ;
+	in simple words its our storage;
+ }
+( 2 ) What is Normalization? 
+{
+	as the name suggeste we normalize the database so it works effictiantly and 
+	any fresh eyes can understend the entries with just the first look;
+ }
+
+( 3 ) What is Difference between DBMS and RDBMS? 
+{
+	DBMS stands for Database Management System, which is a software that allows users to create,
+	manipulate and manage data in a database.,
+	RDBMS stands for Relational Database Management System which is a type of DBMS that stores data in tables 
+	and uses SQL as a query language.
+ }
+( 4 ) What is MF Cod Rule of RDBMS Systems? 
+{
+	MF Cod Rule of RDBMS Systems is a set of 12 rules proposed by Edgar F. Codd, the inventor of the relational model, to     	test whether a DBMS is truly relational. The rules cover aspects such as data independence, integrity, security, and 	manipulation. However, no existing RDBMS complies with all 12 rules 5.
+ }
+( 5 ) What do you understand By Data Redundancy? 
+{
+	Data redundancy occurs when the same data is stored in more than one place in a database. Data redundancy can lead to 	inconsistency, waste of storage space, and increased maintenance costs.
+ }
+( 6 ) What is DDL Interpreter? 
+{
+	DDL Interpreter is a component of a DBMS that translates the data definition language (DDL) statements into a set of 	tables, views, indexes, and other database objects.
+ }
+( 7 ) What is DML Compiler in SQL? 
+{
+	DML Compiler in SQL is a component of a DBMS that translates the data manipulation language (DML) statements into a set 	of operations that can be performed on the database.
+ }
+( 8 ) What is SQL Key Constraints writing an Example of SQL Key Constraints 
+{
+	SQL Key Constraints are rules that enforce the uniqueness and referential integrity of the data in a database
+ }
+( 9 ) What is save Point? How to create a save Point write a Query? 
+{
+	Save Point is a feature of SQL that allows users to mark a point in a transaction where they can roll back the changes if 	something goes wrong. To create a save point, users can use the SAVEPOINT statement followed by a name. To roll back to a 	save point, users can use the ROLLBACK TO statement followed by the same name 
+ }
+( 10 ) What is trigger and how to create a Trigger in SQL?
+{
+	rigger is a feature of SQL that allows users to execute a set of actions automatically when a certain event occurs on a 	table or view. For example, users can create a trigger that updates another table when a row is inserted or deleted from 	a table. To create a trigger in SQL, users can use the CREATE TRIGGER statement followed by the name, event, table, and 	action of the trigger
+ }
